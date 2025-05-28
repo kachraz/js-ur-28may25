@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-  width: 2rem;
+  width: 5rem;
   object-fit: contain;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
