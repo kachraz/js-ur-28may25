@@ -106,3 +106,5 @@ function init() {
 }
 
 init();
+
+//// references and primitives
