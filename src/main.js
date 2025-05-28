@@ -37,30 +37,72 @@
 
 // KV Object Vars
 
-const userKV = {
-  name: "Mina",
-  fetish: "fart",
+// const userKV = {
+//   name: "Mina",
+//   fetish: "fart",
 
-  // Method definition inside the Var
-  greet() {
-    console.log("Greeter Funtion");
-    console.log(this.name);
-  },
-};
-console.log(userKV.greet());
+//   // Method definition inside the Var
+//   greet() {
+//     console.log("Greeter Funtion");
+//     console.log(this.name);
+//   },
+// };
+// console.log(userKV.greet());
 
-// Blue print method
-class User {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
+// // Blue print method
+// class User {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     console.log("hi");
+//   }
+// }
+
+// // Instantiate the class
+// const user1 = new User("Bootydance", "99");
+// console.log(user1);
+
+/// Array Methods - Map functions are very common
+
+// const hobbies = ["sports", "cooking", "reading"];
+// console.log(hobbies[0]);
+
+// const editedHobbies = hobbies.map((i) => i + " _mapAdd");
+// console.log(editedHobbies);
+
+/// Destructuring Objects
+// const userNameData = ["Bindo", "Kando"];
+
+// const firstName = userNameData[0];
+// const secondName = userNameData[1];
+
+// const [first]
+
+// const [fruit, veg] = ["Mango", "Onion"];
+// console.log(fruit);
+// console.log(veg);
+
+// Object should be the same of the properies
+// const { name, age } = {
+//   name: "Ina",
+//   age: 18,
+// };
+
+// // mergin list
+
+// const newHobbies = []
+
+/// Functions inside function
+
+function init() {
+  function greet() {
+    console.log("Funck");
   }
 
-  greet() {
-    console.log("hi");
-  }
+  greet();
 }
 
-// Instantiate the class
-const user1 = new User("Bootydance", "99");
-console.log(user1);
+init();
